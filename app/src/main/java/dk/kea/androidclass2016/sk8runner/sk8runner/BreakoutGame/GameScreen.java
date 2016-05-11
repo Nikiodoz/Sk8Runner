@@ -7,12 +7,12 @@ import android.util.Log;
 
 import java.util.List;
 
-import dk.kea.patrick.firstapp.CollisionListener;
-import dk.kea.patrick.firstapp.Game;
-import dk.kea.patrick.firstapp.Music;
-import dk.kea.patrick.firstapp.Screen;
-import dk.kea.patrick.firstapp.Sound;
-import dk.kea.patrick.firstapp.TouchEvent;
+import dk.kea.androidclass2016.sk8runner.sk8runner.CollisionListener;
+import dk.kea.androidclass2016.sk8runner.sk8runner.Game;
+import dk.kea.androidclass2016.sk8runner.sk8runner.Music;
+import dk.kea.androidclass2016.sk8runner.sk8runner.Screen;
+import dk.kea.androidclass2016.sk8runner.sk8runner.Sound;
+import dk.kea.androidclass2016.sk8runner.sk8runner.TouchEvent;
 
 /**
  * Created by Ahmed on 04-04-2016.
