@@ -1,0 +1,19 @@
+package dk.kea.androidclass2016.sk8runner.sk8runner;
+
+
+public abstract class Screen
+{
+    protected final Game game;
+
+    public Screen(Game game)
+    {
+        this.game = game;
+    }
+
+    public abstract void update(float deltaTime);
+    public abstract void pause();
+    public abstract void resume();
+    public abstract void dispose();
+
+
+}
