@@ -1,8 +1,6 @@
 package dk.kea.androidclass2016.sk8runner.sk8runner.SkateRunner;
 
 import android.graphics.Bitmap;
-
-import dk.kea.androidclass2016.sk8runner.sk8runner.BreakoutGame.GameScreen;
 import dk.kea.androidclass2016.sk8runner.sk8runner.Game;
 import dk.kea.androidclass2016.sk8runner.sk8runner.Screen;
 
