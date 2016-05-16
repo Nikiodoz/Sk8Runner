@@ -19,7 +19,7 @@ public class MenuScreen extends Screen
     {
         super(game);
         mainmenu = game.loadBitmap("menuBackground.png");
-        playButton = game.loadBitmap("playButt.png");
+        playButton = game.loadBitmap("SkateButt.png");
 
     }
 

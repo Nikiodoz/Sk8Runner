@@ -47,7 +47,7 @@ public class GameScreen extends Screen
     public void update(float deltaTime)
     {
 
-     //       if (world.gameOver == true) state = State.GameOver;
+            //if (SkateWorld.gameOver == true) state = State.GameOver;
             if(state == State.Paused && game.getTouchEvents().size() > 0);
         {
             state = State.Running;
