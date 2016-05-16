@@ -25,6 +25,7 @@ public class MenuScreen extends Screen
 
     public void update (float deltaTime)
     {
+        //skifter fra main menu til game menu hvis man toucher
         if(game.isTouchDown(0))
         {
             game.setScreen(new GameScreen(game));
@@ -38,17 +39,17 @@ public class MenuScreen extends Screen
         }
 
     }
-
+    @Override
     public void pause()
     {
 
     }
-
+    @Override
     public void resume()
     {
 
     }
-
+    @Override
     public void dispose()
     {
 
